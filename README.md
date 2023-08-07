@@ -15,14 +15,23 @@ We have used Logistic Regression Model in the final model.pkl file because of it
 
 ## Steps involved:
 -Data Collection and Preprocessing. 
+
 -Exploratory Data Analysis
+
 -Feature Engineering.
+
 -Feature Selection.
+
 -Feature Transformation.
+
 -Model Building.
+
 -Model Evaluation.
+
 -Model Selection.
+
 -Predictions.
+
 -Model Deployment.
 
 ## Run Locally
