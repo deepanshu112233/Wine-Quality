@@ -20,7 +20,7 @@
       },
       {
         "src": "/(.*)",
-        "dest": "winequality/wsgi.py"
+        "dest": "winequality/app.py"
       }
     ]
   }
