@@ -1,26 +1,19 @@
 {
     "builds": [
       {
-        "src": "winequality/app.py",
+        "src": "api/app.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
-      },
-      {
-        "src": "build_files.sh",
-        "use": "@vercel/static-build",
-        "config": {
-          "distDir": "staticfiles_build"
-        }
       }
     ],
     "routes": [
       {
-        "src": "/static/(.*)",
-        "dest": "winequality/app.py/$1"
+        "src": "/api/(.*)",
+        "dest": "api/app.py/$1"
       },
       {
         "src": "/(.*)",
-        "dest": "winequality/app.py"
+        "dest": "api/app.py"
       }
     ]
   }
