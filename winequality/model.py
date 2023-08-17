@@ -37,7 +37,7 @@ rf.fit(x_train,y_train)
 
 #predict the model on test_set
 rf_pred=rf.predict(x_test)
-print(rf_pred[:9])
+# print(rf_pred[:9])
 
 #get the performance of the model on test data
 from sklearn.metrics import accuracy_score,classification_report,confusion_matrix

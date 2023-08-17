@@ -16,7 +16,7 @@
 		<div class="container">
             <h2 class='container-heading'><span class="heading_font">Wine quality Predictor</span></h2>
             <div class='description'>
-    			<p>A Machine Learning Web App, Built with Flask, Deployed using Heroku.</p>
+    			<p>A Machine Learning Web App, Built with Flask</p>
     		</div>
     	</div>
 
@@ -24,10 +24,10 @@
 		<div class="results">
 			{% if prediction==1 %}
 				<h1>Prediction: <span class='safe'>Wow..! The Quality of wine is GOOD.</span></h1>
-				<img class="gif" src="../static/Good-quality-wine.webp" alt="wine Image">
+				<img class="gif" src="../static/Good-quality-wine.webp" alt="Good wine Image">
 			{% elif prediction==0 %}
 				<h1>Prediction: <span class='danger'>The Predicted Quality of Wine is BAD..!.</span></h1>
-				<img class="gif1" src="../static/Bad-quality-wine.jpg" alt="Good Wine Image">
+				<img class="gif1" src="../static/Bad-quality-wine.jpg" alt="Bad Wine Image">
 			{% endif %}
 		</div>
 
