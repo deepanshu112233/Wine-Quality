@@ -1,5 +1,5 @@
 
-# Wine Quality Prediction With Deployment
+# Wine Quality Prediction
 
 This is a group project on Wine quality prediction, With end to end deployment.
 We have used Logistic Regression Model in the final model.pkl file because of its maximum accuracy.
